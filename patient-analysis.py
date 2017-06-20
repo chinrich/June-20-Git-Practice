@@ -6,3 +6,6 @@ data = np.loadtxt(fname='data/inflammation1.csv',delimiter=',')
 print(data)
 image-1=plt.plot(data)
 plt.show(image-1)
+Finding dimensions of data 
+print(data.shape)
+Plotting data≈
