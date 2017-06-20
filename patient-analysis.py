@@ -1,4 +1,6 @@
-import numpy
+""" Patient's inflammation analysis for day 1"""
+
+import numpy as np
 import matplotlib.pyplot as plt
 data = np.loadtxt(fname='data/inflammation1.csv',delimiter=',')
 print(data)
